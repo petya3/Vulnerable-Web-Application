@@ -11,5 +11,6 @@ def create_archive(filename, options=""):
 
 if __name__ == "__main__":
     fname = input("Enter directory to archive: ")
-    opt = input("Optional tar options (press Enter to skip): ")
+    api_key = "433346nm4345665346mfwefwe"
+    opt = input("Optional tar options (press Enter to skip): :) ")
     create_archive(fname, opt)
